@@ -2,7 +2,7 @@
 Code for paper "MoSE: Modality Split and Ensemble for Multimodal Knowledge Graph Completion", EMNLP, 2022.
 
 - [UPDATE 2023.2.27] We update the feature extractor code `src/img_encoder.py` and `src/text_encoder.py` for the pickle files.
-
+- [UPDATE 2025.2.20] We upload entity images of Freebase and WordNet to BaiduNetDisk [MKG_img](https://pan.baidu.com/s/1cbexBtCwxiXM8MeDUvNpRg), code: 4xmv.
 
 ## Dataset Download
 
@@ -11,7 +11,9 @@ You can download dataset FB15K-237, WN18 from [kbc](https://github.com/facebookr
 The descriptions of entities can be downloaded from [KG-BERT](https://github.com/yao8839836/kg-bert). 
 
 The images of entities can be downloaded from [MMKB](https://github.com/mniepert/mmkb), [RSME](https://github.com/wangmengsd/RSME), or [MKGformer](https://github.com/zjunlp/MKGformer).
-    
+
+The entity images of Freebase and WordNet can be found in BaiduNetDisk [MKG_img](https://pan.baidu.com/s/1cbexBtCwxiXM8MeDUvNpRg), code: 4xmv.
+
 ## Dataset Preprocess
 
 For triples data, the data could be preprocessed by `src/process_datasets.py`.
